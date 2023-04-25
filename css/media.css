@@ -1,0 +1,77 @@
+@media screen and (min-width: 428px) {
+  .container {
+    width: 428px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .benefits {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .benefits-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+
+  .benefits-text {
+    max-width: 264px;
+    
+  }
+
+  /* icon_svg_benefits */
+
+  .benefits-icon-list {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 8px;
+  }
+
+  .bnf-icon-item {
+    width: 264px;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .bnf-icon-pic {
+    width: 64px;
+    height: 64px;
+  }
+
+  /* benefits_text_description */
+}
+
+/*? operator and */
+/** якщо дві умови виконуются то розпакуєтся медіа правило */
+
+/* @media screen (min-width: ) and (max-width: ) {
+  
+}
+
+@media screen (max-width: ) {
+
+} */
+
+/*? operator or */
+/** якщо одна з цих умов виконуєтся то розпакуєтся медіа правило */
+
+@media screen (max-width: ), (min-width: ) {
+}
