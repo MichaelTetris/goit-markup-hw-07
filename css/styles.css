@@ -462,8 +462,8 @@ body {
 /*? ----------------------------*/
 
 .customers {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 .customers-title {
   font-style: normal;
@@ -479,10 +479,12 @@ body {
 
 .customers-list {
   display: flex;
-  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 72px 16px;
 }
 .customers-item {
-  width: 168px;
+  width: 190px;
   height: 88px;
 }
 .customers-link {
