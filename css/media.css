@@ -1,3 +1,6 @@
+
+/*? MOBILE_VERS */
+
 @media screen and (min-width: 428px) {
   .container {
     width: 428px;
@@ -8,10 +11,14 @@
   }
 }
 
+/*? TABLE_VERS */
+
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
   }
+
+  /* benefits */
 
   .benefits-list {
     gap: 72px 24px;
@@ -24,7 +31,22 @@
   .benefits-title {
     text-align: start;
   }
+
+  /* team */
+
+  .team {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .team-list {
+    gap: 64px 24px;
+  }
+
+
 }
+
+/*? DESCTOP_VERS */
 
 @media screen and (min-width: 1158px) {
   .container {
@@ -34,7 +56,6 @@
   }
 
   
-
   /* icon_svg_benefits */
 
   .benefits-icon-list {
@@ -78,7 +99,17 @@
 
   .benefits-text {
     max-width: 264px;
-    
+  }
+
+  /* team */
+
+  .team-list {
+    justify-content: center;
+    gap: 24px;
+  }
+
+  .team-item {
+    width: calc((100% - 72px) / 4);
   }
 }
 
