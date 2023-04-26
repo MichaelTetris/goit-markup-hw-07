@@ -676,7 +676,6 @@ body {
 /*? ---------------------------------*/
 
 .footer {
-  /* max-width: 1440px; */
   width: 100%;
   margin: 0 auto;
   background-color: var(--second-title-color);
@@ -713,7 +712,6 @@ body {
   color: #f4f4fd;
   align-items: center;
   max-width: 268px;
-  /* max-width: 264px; */
 }
 
 .footer-wrap {
@@ -723,9 +721,7 @@ body {
 }
 
 .foot-text-block {
-  /* margin-right: 120px; */
   margin-bottom: 72px;
-  
 }
 
 .footer-soc {
@@ -784,9 +780,7 @@ body {
 /*? -----------------------------------------*/
 
 .footer-subscribe {
-  /* margin-left: auto; */
   margin: 0;
-  /* max-width: 398px; */
   padding: 0 15px 0;
 }
 .subscribe-form {
@@ -814,10 +808,8 @@ body {
 .input-subscr {
   background-color: transparent;
   width: 100%;
-  /* width: 264px; */
   border: 1px solid #ffffff;
   border-radius: 4px;
-  /* margin-right: 24px; */
   margin-bottom: 16px;
   padding: 8px 16px;
   color: #ffffff;
@@ -861,10 +853,6 @@ body {
   border: transparent;
 }
 
-/* .text-btn-sbscr {
-  text-align: center;
-  align-items: center;
-} */
 
 .subscr-icon-pic {
   width: 24px;
