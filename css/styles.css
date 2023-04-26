@@ -296,16 +296,11 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 72px;
-  max-width: 396px;
 }
 
 .benefits-item {
   flex-basis: 100%;
 }
-
-/* .benefits-item:not(:last-child) {
-  margin-right: 24px;
-} */
 
 .benefits-title {
   font-style: normal;
@@ -325,7 +320,6 @@ body {
   color: var(--main-text-color);
   width: 100%;
   /* max-width: 396px; */
-  
   height: auto;
 }
 
