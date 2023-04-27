@@ -87,22 +87,29 @@ body {
 /*? -------------------------------------*/
 
 .header {
-  max-width: 1440px;
+  max-width: 100%;
+  /* max-width: 1440px; */
   margin: 0 auto;
-  background: #fff;
+  /* background: #fff; */
+  background-color: #31d0aa;
   border-bottom: 1px solid #e7e9fc;
+  
 }
 
 .header-section {
   padding-top: 24px;
   padding-bottom: 24px;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .header-navigation {
-  display: flex;
-  margin-right: auto;
-  align-items: center;
+  /* display: flex; */
+  /* margin-right: auto; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  
 }
 
 .main-logo {
@@ -115,7 +122,8 @@ body {
   text-transform: uppercase;
   color: var(--logo-color-style);
   text-decoration: none;
-  margin-right: 76px;
+  
+  /* margin-right: 76px; */
 }
 
 .logo-span {
@@ -126,14 +134,12 @@ body {
 /**-------------navigation-------------**/
 /**------------------------------------**/
 
+
 .header-list {
-  display: flex;
-  align-items: center;
-  gap: 40px;
+  display: none;
 }
 
-.header-item {
-}
+
 
 .header-link {
   position: relative;
@@ -173,21 +179,22 @@ body {
 }
 
 .header-contact {
-  font-style: normal;
-  display: flex;
+  display: none;
+  /* font-style: normal;
+  display: flex; */
 }
 
 .adress-list {
-  display: flex;
+  /* display: flex; */
 }
 
 .adress-item:last-child {
-  margin-left: 40px;
+  /* margin-left: 40px; */
 }
 
-.contact-wrap {
+/* .contact-wrap {
   display: flex;
-}
+} */
 
 .adress-item {
 }
@@ -211,11 +218,31 @@ body {
   color: var(--active-link-color);
 }
 
+/*! Burger_menu */
+
+.menu-burger-btn {
+  display: inline-block;
+  width: 29.5px;
+  height: 18.5px;
+  border: none;
+  padding: 0;
+  /* align-items: center; */
+  /* justify-content: center; */
+  background-color: transparent;
+  /* margin-left: auto; */
+  
+}
+
+.icon_burger {
+  width: 100%;
+  height: inherit;
+  stroke: var(--logo-main-color);
+} 
+
 /*? --------------HERO----------------*/
 /*? ----------------------------------*/
 
 .hero {
-  
   width: 428px;
   height: 432px;
   margin: 0 auto;
