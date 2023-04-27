@@ -1,12 +1,19 @@
-
 /*? MOBILE_VERS */
 
 @media screen and (min-width: 428px) {
   .container {
     width: 428px;
   }
+  /*! hero */
 
-  
+  .hero-main {
+    max-width: 428px;
+  }
+
+  .hero-title {
+  }
+
+  /*! benefits */
 
   .benefits-item {
     max-width: 396px;
@@ -15,13 +22,10 @@
   /*! footer */
 
   .input-subscr {
-   
   }
 
   .subscribe-form {
-   
   }
-  
 }
 
 /*? TABLE_VERS */
@@ -29,6 +33,24 @@
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
+  }
+
+  /*! hero */
+
+  .hero {
+    width: 768px;
+    height: 436px;
+  }
+
+  .hero-main {
+    max-width: 496px;
+  }
+
+  .hero-title {
+    font-size: 52px;
+    line-height: 1.07;
+    max-width: 496px;
+    margin-bottom: 36px;
   }
 
   /* .footer-wrap > .container {
@@ -44,7 +66,7 @@
   .benefits-item {
     flex-basis: calc((100% - 24px) / 2);
   }
-  
+
   .benefits-title {
     text-align: start;
   }
@@ -82,7 +104,7 @@
   }
 
   .footer-wrap {
-    justify-content:flex-start;
+    justify-content: flex-start;
   }
 
   .footer-logo {
@@ -114,7 +136,6 @@
     margin-bottom: 0;
     margin-right: 24px;
   }
-
 }
 
 /*? DESCTOP_VERS */
@@ -126,7 +147,25 @@
     padding-right: 15px;
   }
 
-  
+  /*! hero */
+
+  .hero {
+    height: 600px;
+    width: 1440px;
+  }
+
+  .hero-main {
+    padding-top: 188px;
+    padding-bottom: 188px;
+
+    /* max-width: 320px; */
+  }
+
+  .hero-title {
+    font-size: 56px;
+    margin-bottom: 48px;
+  }
+
   /*! icon_svg_benefits */
 
   .benefits-icon-list {
@@ -172,6 +211,39 @@
     max-width: 264px;
   }
 
+  /*! what are we do in */
+
+  .examples {
+    padding-bottom: 120px;
+  }
+
+  .examples-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--second-title-color);
+  }
+
+  .examples-title {
+    margin-bottom: 72px;
+  }
+
+  .examples-list {
+  }
+
+  .examples-list {
+    display: flex;
+    gap: 24px;
+  }
+
+  .examples-item {
+    width: calc((100% - 48px) / 3);
+  }
+
   /*! team */
 
   .team-list {
@@ -215,9 +287,7 @@
   }
 
   .footer-wrap {
-    
     flex-wrap: nowrap;
-    
   }
 
   .footer-logo {
@@ -239,12 +309,12 @@
   .input-elements {
     flex-wrap: nowrap;
   }
-
-
 }
 
 @media screen and (max-width: 1157px) {
-  .examples {display: none;}
+  .examples {
+    display: none;
+  }
 }
 
 @media screen (min-width: 768px) and (max-width: 1157px) {

@@ -215,8 +215,9 @@ body {
 /*? ----------------------------------*/
 
 .hero {
-  height: 600px;
-  width: 1440px;
+  
+  width: 428px;
+  height: 432px;
   margin: 0 auto;
   background-color: var(--logo-main-color);
   background-image: var(--bg-gradient), url(../images/hero_bg.jpg);
@@ -226,19 +227,26 @@ body {
 }
 
 .hero-main {
-  padding-top: 188px;
-  padding-bottom: 188px;
+  /* padding-top: 188px;
+  padding-bottom: 188px; */
+  padding-top: 112px;
+  padding-bottom: 112px;
+  max-width: 320px;
 }
 
 .hero-title {
   font-style: normal;
-  font-size: 56px;
-  line-height: 1.07;
+  /* font-size: 56px; */
+  font-size: 32px;
+  line-height: 1.11;
+  /* line-height: 1.07; */
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--main-title-color);
-  max-width: 496px;
-  margin-bottom: 48px;
+  max-width: 320px;
+  /* max-width: 496px; */
+  /* margin-bottom: 48px; */
+  margin-bottom: 72px;
   align-items: center;
   margin-left: auto;
   margin-right: auto;
@@ -277,21 +285,6 @@ body {
   display: none;
 }
 
-.bnf-icon-item {
-  /* width: 264px;
-  height: 112px;
-  background-color: #f4f4fd;
-  border-radius: 4px;
-  display: flex;
-  align-items: center;
-  justify-content: center; */
-}
-
-.bnf-icon-pic {
-  /* width: 64px;
-  height: 64px; */
-}
-
 .benefits-list {
   display: flex;
   flex-wrap: wrap;
@@ -319,15 +312,18 @@ body {
   letter-spacing: 0.02em;
   color: var(--main-text-color);
   width: 100%;
-  /* max-width: 396px; */
   height: auto;
 }
 
 /*?--------WHAT ARE WE DO IN------*/
 /*? ------------------------------*/
 
-.examples {
-  
+
+/* .examples {
+  display: none;
+} */
+
+/* .examples {
   padding-bottom: 120px;
 }
 
@@ -356,7 +352,7 @@ body {
 
 .examples-item {
   width: calc((100% - 48px) / 3);
-}
+} */
 
 /*? --------------OUR TEAM-----------------*/
 /*? ---------------------------------------*/
