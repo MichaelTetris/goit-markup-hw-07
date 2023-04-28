@@ -88,7 +88,7 @@ body {
 
 .header {
   max-width: 100%;
-  /* max-width: 1440px; */
+  
   margin: 0 auto;
   /* background: #fff; */
   background-color: #31d0aa;
@@ -123,7 +123,7 @@ body {
   color: var(--logo-color-style);
   text-decoration: none;
   
-  /* margin-right: 76px; */
+  
 }
 
 .logo-span {
