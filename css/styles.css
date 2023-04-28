@@ -83,6 +83,7 @@ body {
   overflow: hidden;
 }
 
+
 /*? ---------------HEADER----------------*/
 /*? -------------------------------------*/
 
@@ -141,6 +142,16 @@ body {
 /*! Burger_menu */
 
 .menu-mob {
+}
+
+.no-scroll {
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
 }
 
 .menu-burger-btn {
@@ -287,6 +298,11 @@ body {
   height: 24px;
   fill: #f4f4fd;
 }
+
+.active-page {
+  color: #404bbf;
+}
+
 
 /*? --------------HERO----------------*/
 /*? ----------------------------------*/

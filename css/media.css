@@ -99,9 +99,7 @@
     position: relative;
   }
 
-  .active-page {
-    color: #404bbf;
-  }
+  
 
   .active-nav::after {
     content: "";
