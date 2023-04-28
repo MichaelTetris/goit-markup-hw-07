@@ -170,7 +170,7 @@ body {
 /*? ----------------------------------*/
 
 .hero {
-  width: 428px;
+  max-width: 428px;
   height: 432px;
   margin: 0 auto;
   background-color: var(--logo-main-color);
@@ -726,8 +726,8 @@ body {
 
 .footer-subscribe {
   margin: 0;
-  padding: 0 15px 0;
 }
+
 .subscribe-form {
 }
 
