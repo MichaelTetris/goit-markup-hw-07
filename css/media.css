@@ -12,6 +12,7 @@
   }
 
   /*! mobile_menu */
+  
   .mb-menu-tel {
     font-size: 36px;
     line-height: 1.11;
@@ -160,13 +161,8 @@
   }
 
   .adress-item:last-child {
-    /* margin-left: 40px; */
     margin-top: 12px;
   }
-
-  /* .contact-wrap {
-    display: flex;
-  } */
 
   .adress-item {
   }
@@ -202,7 +198,6 @@
     max-width: 768px;
     height: 436px;
     background-image: var(--bg-gradient), url(../images/bg_image/people_office_1x.jpg);
-    
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -211,7 +206,6 @@
   .hero {
     background-image: var(--bg-gradient), url(../images/bg_image/people_office_2x.jpg);
   }}
-
 
   .hero-main {
     max-width: 496px;
@@ -224,9 +218,6 @@
     margin-bottom: 36px;
   }
 
-  /* .footer-wrap > .container {
-    width: 582px;
-  } */
 
   /*! benefits */
 
@@ -308,7 +299,6 @@
     margin-right: 24px;
   }
 
-  
 }
 
 /*? DESCTOP_VERS */
@@ -517,7 +507,6 @@
   }
 
   
-
   /*! modal btn */
 
   .btn-form-modal {

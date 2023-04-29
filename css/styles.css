@@ -303,7 +303,6 @@ body {
   color: #404bbf;
 }
 
-
 /*? --------------HERO----------------*/
 /*? ----------------------------------*/
 
@@ -416,36 +415,6 @@ body {
   display: none;
 } */
 
-/* .examples {
-  padding-bottom: 120px;
-}
-
-.examples-title {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-align: center;
-  text-transform: capitalize;
-  color: var(--second-title-color);
-}
-
-.examples-title {
-  margin-bottom: 72px;
-}
-
-.examples-list {
-}
-
-.examples-list {
-  display: flex;
-  gap: 24px;
-}
-
-.examples-item {
-  width: calc((100% - 48px) / 3);
-} */
 
 /*? --------------OUR TEAM-----------------*/
 /*? ---------------------------------------*/
@@ -1034,13 +1003,6 @@ body {
   margin-bottom: 12px;
 }
 
-/* .modal-form {
-  width: 100%;
-  min-height: 360px;
-}
- */
-.modal-label {
-}
 
 .modal-label span {
   display: block;
