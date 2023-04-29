@@ -40,6 +40,35 @@
 
   .subscribe-form {
   }
+
+  /*! modal  */
+
+  .modal{
+    width: 408px;
+    height: 586px;
+  }
+
+  .modal-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 16px;
+  }
+  
+
+  .contact-mod-mesage {
+    /* height: 120px; */
+  }
+
+  /*! modal btn */
+
+  .btn-form-modal {
+    min-width: 169px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+  }
 }
 
 /*? TABLE_VERS */
@@ -98,8 +127,6 @@
   .active-nav {
     position: relative;
   }
-
-  
 
   .active-nav::after {
     content: "";
@@ -259,6 +286,8 @@
     margin-bottom: 0;
     margin-right: 24px;
   }
+
+  
 }
 
 /*? DESCTOP_VERS */
@@ -464,6 +493,14 @@
 
   .input-elements {
     flex-wrap: nowrap;
+  }
+
+  
+
+  /*! modal btn */
+
+  .btn-form-modal {
+    /* margin-top: 24px; */
   }
 }
 
