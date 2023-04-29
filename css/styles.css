@@ -92,7 +92,7 @@ body {
 
   margin: 0 auto;
   /* background: #fff; */
-  background-color: #31d0aa;
+  background-color: #fff;
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -312,10 +312,18 @@ body {
   height: 432px;
   margin: 0 auto;
   background-color: var(--logo-main-color);
-  background-image: var(--bg-gradient), url(../images/hero_bg.jpg);
+  background-image: var(--bg-gradient), url(../images/bg_image/bg_mob_1x.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: var(--bg-gradient), url(../images/bg_image/bg_mob_2x.jpg);
+  }
 }
 
 .hero-main {
@@ -977,6 +985,7 @@ body {
   transition: transform var(--transform-item-hover),
     scale var(--transform-item-hover);
   padding: 72px 24px 24px;
+  /* overflow-x: hidden; */
 }
 
 .modal-close-btn {

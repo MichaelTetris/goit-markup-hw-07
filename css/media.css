@@ -23,6 +23,17 @@
 
   /*! hero */
 
+  .hero {
+    background-image: var(--bg-gradient), url(../images/bg_image/bg_tablet_1x.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: var(--bg-gradient), url(../images/bg_image/bg_tablet_2x.jpg);
+  }}
+
   .hero-main {
     max-width: 428px;
   }
@@ -190,7 +201,17 @@
   .hero {
     max-width: 768px;
     height: 436px;
+    background-image: var(--bg-gradient), url(../images/bg_image/people_office_1x.jpg);
+    
   }
+
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: var(--bg-gradient), url(../images/bg_image/people_office_2x.jpg);
+  }}
+
 
   .hero-main {
     max-width: 496px;
